@@ -1,11 +1,8 @@
-import "./App.css";
+import { RouterProvider } from "react-router-dom";
+import router from "./routes/routes";
 
 function App() {
-  return (
-    <>
-      <h1>First Commit</h1>
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
