@@ -1,4 +1,4 @@
-import { Group, AppShell, Burger } from "@mantine/core";
+import { Group, AppShell, Burger, Text } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import classes from "./Header.module.css";
@@ -26,7 +26,7 @@ export default function Header() {
 
   return (
     <AppShell
-      header={{ height: 60 }}
+      header={{ height: 100 }}
       navbar={{
         width: 300,
         breakpoint: "sm",
@@ -38,7 +38,9 @@ export default function Header() {
         <Group h="100%" px="xl">
           <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
           <Group justify="space-between" style={{ flex: 1 }}>
-            <h3>Birkan Kara</h3>
+            <Text size="xl" fw={600}>
+              Birkan Kara
+            </Text>
             <Group ml="xl" gap={0} visibleFrom="sm">
               {items}
             </Group>
