@@ -26,7 +26,7 @@ export default function Header() {
 
   return (
     <AppShell
-      header={{ height: 60 }}
+      header={{ height: 100 }}
       navbar={{
         width: 300,
         breakpoint: "sm",
