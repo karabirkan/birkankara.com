@@ -147,4 +147,9 @@
 
 .linkicons:hover {
   opacity: 0.8;
+  transform: translateY(-5px);
+}
+
+.techimg:hover {
+  transform: translateX(-5px);
 }
