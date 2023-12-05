@@ -3,6 +3,8 @@ import {
   IconBrandTwitter,
   IconBrandYoutube,
   IconBrandInstagram,
+  IconBrandLinkedin,
+  IconBrandGithub,
 } from "@tabler/icons-react";
 import classes from "./Footer.module.css";
 
@@ -75,16 +77,35 @@ export function Footer() {
             <IconBrandTwitter
               style={{ width: rem(18), height: rem(18) }}
               stroke={1.5}
+              onClick={() =>
+                (window.location.href = "https://twitter.com/KaraBirko")
+              }
             />
           </ActionIcon>
           <ActionIcon size="lg" color="gray" variant="subtle">
-            <IconBrandYoutube
+            <IconBrandLinkedin
+              onClick={() =>
+                (window.location.href =
+                  "https://www.linkedin.com/in/karabirkan/")
+              }
+              style={{ width: rem(18), height: rem(18) }}
+              stroke={1.5}
+            />
+          </ActionIcon>
+          <ActionIcon size="lg" color="gray" variant="subtle">
+            <IconBrandGithub
+              onClick={() =>
+                (window.location.href = "https://github.com/karabirkan")
+              }
               style={{ width: rem(18), height: rem(18) }}
               stroke={1.5}
             />
           </ActionIcon>
           <ActionIcon size="lg" color="gray" variant="subtle">
             <IconBrandInstagram
+              onClick={() =>
+                (window.location.href = "https://www.instagram.com/b1rkankara/")
+              }
               style={{ width: rem(18), height: rem(18) }}
               stroke={1.5}
             />
