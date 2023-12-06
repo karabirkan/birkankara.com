@@ -20,9 +20,12 @@ justify-content: space-between;
   .linkicons {
     cursor: pointer;
     transition: opacity 0.3s ease-in-out;
+    transition: transform 150ms ease, box-shadow 150ms ease;
+
   }
   
   .linkicons:hover {
-    opacity: 0.8;
-    transform: translateY(-5px);
+    opacity: 0.8s;
+    transform:scale(1.01) translateY(-1px);
+    color: orange;
   }
