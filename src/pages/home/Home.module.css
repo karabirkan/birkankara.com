@@ -93,9 +93,7 @@
   position: relative;
 }
 
-.profileframe:hover {
-  transform: scale(1.1); /* Zoom-in effect on hover */
-}
+
 
 .profileimage {
   width: 100%;
@@ -142,7 +140,7 @@
 }
 .linkicons {
   cursor: pointer;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
 }
 
 .linkicons:hover {
