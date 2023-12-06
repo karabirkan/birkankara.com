@@ -1,10 +1,10 @@
 import React from "react";
+import { ProjectsCard } from "../../components/ui/projects-card/ProjectsCard";
 
 function Projects() {
   return (
     <div>
-      <h1>Projects Page</h1>
-    </div>
+      <ProjectsCard />    </div>
   );
 }
 

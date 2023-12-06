@@ -1,0 +1,28 @@
+.card {
+    transition: transform 150ms ease, box-shadow 150ms ease;
+  
+    &:hover {
+      transform: scale(1.01);
+      box-shadow: var(--mantine-shadow-md);
+    }
+  }
+  
+  .title {
+    font-family: 'Greycliff CF', var(--mantine-font-family);
+    font-weight: bold;
+  }
+
+  .cardtitle{
+    display: flex;
+justify-content: space-between;
+  }
+
+  .linkicons {
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .linkicons:hover {
+    opacity: 0.8;
+    transform: translateY(-5px);
+  }
