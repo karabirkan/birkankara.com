@@ -10,7 +10,7 @@ const links = [
 ];
 
 export default function Header() {
-  const { pathname } = useLocation(); // Get the current pathname
+  const { pathname } = useLocation();
   const [opened, { toggle }] = useDisclosure();
 
   const items = links.map((link) => (
@@ -19,9 +19,9 @@ export default function Header() {
       to={link.link}
       className={classes.link}
       data-active={pathname === link.link ? true : undefined}
-    >
+      onClick={() => toggle()}    >
       {link.label}
-    </Link>
+    </Link >
   ));
 
   return (

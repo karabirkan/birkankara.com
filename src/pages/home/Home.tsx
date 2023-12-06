@@ -61,8 +61,8 @@ export default function Home() {
             <IconBrandLinkedin
               className={classes.linkicons}
               onClick={() =>
-                (window.location.href =
-                  "https://www.linkedin.com/in/karabirkan/")
+              (window.location.href =
+                "https://www.linkedin.com/in/karabirkan/")
               }
               width={60}
               height={60}
