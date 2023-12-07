@@ -7,6 +7,7 @@ import Projects from "../pages/projects/Projects";
 import About from "../pages/about/About";
 import { NotFoundImage } from "../pages/notfound/NotFound";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "/projects", element: <Projects /> },
-      { path: "/about", element: <About /> },
+      { path: "/resume", element: <Resume /> },
       { path: "/contact", element: <Contact /> },
     ],
   },

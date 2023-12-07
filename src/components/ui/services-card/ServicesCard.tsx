@@ -18,7 +18,7 @@ import {
   IconCashBanknote,
   IconCoin,
 } from "@tabler/icons-react";
-import classes from "./Services.module.css";
+import classes from "./ServicesCard.module.css";
 
 const mockdata = [
   { title: "Credit cards", icon: IconCreditCard, color: "violet" },
@@ -32,7 +32,7 @@ const mockdata = [
   { title: "Cashback", icon: IconCashBanknote, color: "orange" },
 ];
 
-export default function Services() {
+export default function ServicesCard() {
   const theme = useMantineTheme();
 
   const items = mockdata.map((item) => (
