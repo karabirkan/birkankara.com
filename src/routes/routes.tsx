@@ -4,7 +4,7 @@ import Contact from "../pages/contact/Contact";
 import ModernLayout from "../components/layouts/layout/modern-layout/ModernLayout";
 import Home from "../pages/home/Home";
 import Projects from "../pages/projects/Projects";
-import About from "../pages/about/About";
+import Resume from "../components/ui/resume-card/ResumeCard";
 
 const router = createBrowserRouter([
   {
@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "/projects", element: <Projects /> },
-      { path: "/about", element: <About /> },
+      { path: "/resume", element: <Resume /> },
       { path: "/contact", element: <Contact /> },
     ],
   },
