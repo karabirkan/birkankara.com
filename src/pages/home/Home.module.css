@@ -93,9 +93,7 @@
   position: relative;
 }
 
-.profileframe:hover {
-  transform: scale(1.2) translateY(-10px); /* Bouncing effect on hover */
-}
+
 .profileimage {
   width: 100%;
   height: 100%;
@@ -141,7 +139,7 @@
 }
 .linkicons {
   cursor: pointer;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
 }
 
 .linkicons:hover {
