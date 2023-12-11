@@ -1,0 +1,36 @@
+/* ResumeCard.module.css */
+
+.paper {
+  margin: auto; /* Center the paper horizontally */
+  max-width: 700px; /* Set a maximum width for the paper, adjust as needed */
+  text-align: center; /* Center text within the paper */
+}
+
+.timeline-item {
+  text-align: left; /* Align text content within each timeline item to the left */
+}
+
+/* Add this style to adjust the timeline bullet position */
+.mantine-timeline-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Optional: Adjust timeline bullet and line styles */
+.mantine-timeline-dot {
+  margin-right: 12px;
+  margin-left: 12px;
+  background-color: #4caf50; /* Change the color of the timeline bullet */
+  border-color: #4caf50; /* Change the color of the timeline line */
+}
+
+.timelinecontainer {
+  margin-top: 20px; /* Adjust the gap between Group>Badge and Timeline */
+}
+
+.innerpaper {
+  margin-bottom: 20px;
+}
+.description {
+  text-align: center;
+}

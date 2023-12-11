@@ -1,0 +1,152 @@
+.inner {
+  display: flex;
+  padding-top: calc(var(--mantine-spacing-xl) * 5);
+  @media (max-width: $mantine-breakpoint-sm) {
+    padding-top: calc(var(--mantine-spacing-xl) * 1);
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 150px;
+    align-items: center;
+  }
+}
+
+.maintitle {
+  display: flex;
+}
+.content {
+  max-width: rem(480px);
+  margin-right: calc(var(--mantine-spacing-xl) * 3);
+
+  @media (max-width: $mantine-breakpoint-md) {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+  }
+}
+
+.title {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-size: rem(44px);
+  line-height: 1.2;
+  font-weight: 900;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    font-size: rem(28px);
+  }
+}
+
+.control {
+  @media (max-width: $mantine-breakpoint-xs) {
+    flex: 1;
+  }
+}
+
+.image {
+  width: rem(376px);
+  height: rem(356px);
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    display: none;
+  }
+}
+
+.highlight {
+  position: relative;
+  background-color: var(--mantine-color-blue-light);
+  border-radius: var(--mantine-radius-sm);
+  padding: rem(4px) rem(12px);
+}
+.techstack {
+  display: flex;
+  gap: 10px;
+  margin-top: 3rem;
+  align-items: center;
+  @media (max-width: $mantine-breakpoint-xs) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.techstackimg {
+  overflow: hidden;
+  display: flex;
+  gap: 10px;
+}
+/* ProfilePhoto.css */
+
+.profilecontainer {
+  position: relative;
+}
+
+.profileframe {
+  width: 400px; /* Set your desired size for the circular frame */
+  height: 400px; /* Should be the same as width for a perfect circle */
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  position: relative;
+}
+
+
+.profileimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Color overlay on hover */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the color and opacity of the overlay */
+  border-radius: 50%;
+  opacity: 0; /* Starts invisible and fades in on hover */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .profileframe {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profileframe {
+    width: 220px;
+    height: 220px;
+  }
+}
+.linkicons {
+  cursor: pointer;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.linkicons:hover {
+  opacity: 0.8;
+  transform: translateY(-5px);
+}
+
+.techimg:hover {
+  transform: translateY(-5px);
+}
