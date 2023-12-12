@@ -51,7 +51,7 @@ export default function Home() {
           </div>
           <Group mt={30}>
             <Button
-              onClick={() => navigate("projects")}
+              onClick={() => navigate("/projects")}
               radius="xl"
               size="md"
               className={classes.control}

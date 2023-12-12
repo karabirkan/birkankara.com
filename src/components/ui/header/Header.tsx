@@ -4,9 +4,9 @@ import { Link, Outlet, useLocation } from "react-router-dom";
 import classes from "./Header.module.css";
 
 const links = [
-  { link: "/birkankara.com/", label: "Home" },
-  { link: "resume", label: "Resume" },
-  { link: "projects", label: "Projects" },
+  { link: "/", label: "Home" },
+  { link: "/resume", label: "Resume" },
+  { link: "/projects", label: "Projects" },
 ];
 
 export default function Header() {

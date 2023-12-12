@@ -8,14 +8,14 @@ import Resume from "../pages/resume/Resume";
 
 const router = createBrowserRouter([
   {
-    path: "/birkankara.com/",
+    path: "/",
     element: <ModernLayout />,
     errorElement: <NotFoundImage />,
     children: [
       { index: true, element: <Home /> },
-      { path: "projects", element: <Projects /> },
-      { path: "resume", element: <Resume /> },
-      { path: "contact", element: <Contact /> },
+      { path: "/projects", element: <Projects /> },
+      { path: "/resume", element: <Resume /> },
+      { path: "/contact", element: <Contact /> },
     ],
   },
 ]);
