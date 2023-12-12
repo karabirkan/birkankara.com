@@ -9,7 +9,7 @@ import Resume from "../pages/resume/Resume";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/birkankara.com/",
     element: <ModernLayout />,
     errorElement: <NotFoundImage />,
     children: [
