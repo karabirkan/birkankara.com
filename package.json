@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "commonjs",
+  "homepage": "https://karabirkan.github.io/birkankara.com/",
   "scripts": {
     "dev": "vite",
     "test": "jest",
