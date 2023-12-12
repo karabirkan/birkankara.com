@@ -4,9 +4,9 @@ import { Link, Outlet, useLocation } from "react-router-dom";
 import classes from "./Header.module.css";
 
 const links = [
-  { link: "/", label: "Home" },
-  { link: "/resume", label: "Resume" },
-  { link: "/projects", label: "Projects" },
+  { link: "/birkankara.com/", label: "Home" },
+  { link: "resume", label: "Resume" },
+  { link: "projects", label: "Projects" },
 ];
 
 export default function Header() {
@@ -19,9 +19,10 @@ export default function Header() {
       to={link.link}
       className={classes.link}
       data-active={pathname === link.link ? true : undefined}
-      onClick={() => toggle()}    >
+      onClick={() => toggle()}
+    >
       {link.label}
-    </Link >
+    </Link>
   ));
 
   return (

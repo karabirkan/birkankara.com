@@ -1,4 +1,3 @@
-// routes.js
 import { createBrowserRouter } from "react-router-dom";
 import Contact from "../pages/contact/Contact";
 import ModernLayout from "../components/layouts/layout/modern-layout/ModernLayout";
@@ -9,14 +8,14 @@ import Resume from "../pages/resume/Resume";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/birkankara.com/",
     element: <ModernLayout />,
     errorElement: <NotFoundImage />,
     children: [
-      { index: true, element: <Home /> },
-      { path: "/projects", element: <Projects /> },
-      { path: "/resume", element: <Resume /> },
-      { path: "/contact", element: <Contact /> },
+      { path: "/birkankara.com/", element: <Home /> },
+      { path: "projects", element: <Projects /> }, // Option B: Use a relative path
+      { path: "resume", element: <Resume /> },
+      { path: "contact", element: <Contact /> },
     ],
   },
 ]);

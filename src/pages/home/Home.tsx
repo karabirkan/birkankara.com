@@ -51,7 +51,7 @@ export default function Home() {
           </div>
           <Group mt={30}>
             <Button
-              onClick={() => navigate("/projects")}
+              onClick={() => navigate("projects")}
               radius="xl"
               size="md"
               className={classes.control}
@@ -61,8 +61,8 @@ export default function Home() {
             <IconBrandLinkedin
               className={classes.linkicons}
               onClick={() =>
-              (window.location.href =
-                "https://www.linkedin.com/in/karabirkan/")
+                (window.location.href =
+                  "https://www.linkedin.com/in/karabirkan/")
               }
               width={60}
               height={60}
