@@ -1,6 +1,6 @@
 import { SimpleGrid, Card, Image, Text, Container, AspectRatio, Box } from '@mantine/core';
 import classes from './ProjectsCard.module.css';
-import { IconBrandGithub, IconExternalLink, IconLink } from '@tabler/icons-react';
+import { IconBrandGithub, IconExternalLink } from '@tabler/icons-react';
 import RecipeProject from "../../../assets/RecipeProject.png"
 const projectData = [
     {

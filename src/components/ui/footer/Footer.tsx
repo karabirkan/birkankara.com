@@ -1,7 +1,6 @@
 import { Text, Container, ActionIcon, Group, rem } from "@mantine/core";
 import {
   IconBrandTwitter,
-  IconBrandYoutube,
   IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandGithub,
@@ -66,6 +65,7 @@ export function Footer() {
         <Text c="dimmed" size="sm">
           © 2023 birkankara.com. All rights reserved.
         </Text>
+        <div className={classes.groups}>{groups}</div>
 
         <Group
           gap={0}
