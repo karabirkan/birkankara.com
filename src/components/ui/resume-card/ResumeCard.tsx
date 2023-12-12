@@ -11,11 +11,8 @@ import {
   rem,
 } from "@mantine/core";
 import {
-  IconGitBranch,
   IconGitPullRequest,
-  IconGitCommit,
   IconMessageDots,
-  IconCheck,
   IconCode,
   IconSchool,
   IconCamera,
@@ -24,6 +21,7 @@ import {
 import classes from "./ResumeCard.module.css";
 import Birkan from "../../../assets/birkan.jpg";
 import BirkanKara from "../../../assets/BirkanKara.pdf";
+
 function ResumeCard() {
   return (
     <Paper

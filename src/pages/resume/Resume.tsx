@@ -1,5 +1,5 @@
 import ResumeCard from "../../components/ui/resume-card/ResumeCard";
-import classes from "./About.module.css";
+import classes from "./Resume.module.css";
 
 function About() {
   return (
