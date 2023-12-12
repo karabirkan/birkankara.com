@@ -1,15 +1,17 @@
 {
+  "homepage": "https://karabirkan.github.io/birkankara.com/",
   "name": "portfolio-new",
   "private": true,
   "version": "0.0.0",
   "type": "commonjs",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "test": "jest",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "deploy": "vite build && gh-pages -d build"
   },
   "dependencies": {
     "@mantine/core": "^7.2.2",
