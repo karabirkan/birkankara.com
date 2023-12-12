@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     errorElement: <NotFoundImage />,
     children: [
       { path: "/birkankara.com/", element: <Home /> },
-      { path: "projects", element: <Projects /> }, // Option B: Use a relative path
+      { path: "projects", element: <Projects /> },
       { path: "resume", element: <Resume /> },
       { path: "contact", element: <Contact /> },
     ],
