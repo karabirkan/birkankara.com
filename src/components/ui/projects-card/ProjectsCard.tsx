@@ -19,11 +19,11 @@ const projectData = [
     id: "1",
   },
   {
-    title: "Projects 2",
+    title: "I was mad at",
     image:
       "https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80",
     date: "August 27, 2022",
-    href: "www.google.com",
+    href: "https://iwasmadat.vercel.app/",
     id: "2",
   },
   {
