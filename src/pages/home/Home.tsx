@@ -16,7 +16,7 @@ export default function Home() {
               Front-End <span className={classes.highlight}> Developer</span>
             </Title>
             <Text size="md" c="dimmed" mt="lg">
-              Hi, I'm Birkan Kara. A passionate Front-end Developer base in
+              Hi, I'm Birkan Kara. A passionate Frontend Software Engineer based in
               Istanbul, Turkey.
             </Text>
           </div>
