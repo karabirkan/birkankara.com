@@ -3,7 +3,7 @@ import { ProjectsCard } from "../../components/ui/projects-card/ProjectsCard";
 function Projects() {
   return (
     <div>
-      <ProjectsCard />{" "}
+      <ProjectsCard />
     </div>
   );
 }
