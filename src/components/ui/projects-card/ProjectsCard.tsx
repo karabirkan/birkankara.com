@@ -12,34 +12,31 @@ import { IconBrandGithub, IconExternalLink } from "@tabler/icons-react";
 import RecipeProject from "../../../assets/RecipeProject.png";
 const projectData = [
   {
-    title: "RecipeApp Landing Page",
-    image: RecipeProject,
+    title: "Eventify Hub : Event Managment Project",
+    image: "https://i.imgur.com/41NfOtE.png",
     date: "August 27, 2022",
-    href: "www.google.com",
+    href: "https://eventifyhub.vercel.app/",
     id: "1",
   },
   {
-    title: "Projects 2",
-    image:
-      "https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80",
+    title: "i was mad at : CRUD Project ",
+    image: "https://i.imgur.com/HKeo2Yu.png",
     date: "August 27, 2022",
-    href: "www.google.com",
+    href: "https://iwasmadat.vercel.app/",
     id: "2",
   },
   {
-    title: "Projects 3",
-    image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80",
+    title: "Birkan Kara Portfolio : Portfolio",
+    image: "https://i.imgur.com/ySKPXfk.png",
     date: "September 9, 2022",
-    href: "www.google.com",
+    href: "https://birkankara.com/",
     id: "3",
   },
   {
-    title: "Projects 4",
-    image:
-      "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80",
-    date: "September 12, 2022",
-    href: "www.google.com",
+    title: "Recipe Web App : Recipe Creation web app",
+    image: RecipeProject,
+    date: "August 27, 2022",
+    href: "https://karabirkan.github.io/recipefinder/",
     id: "4",
   },
 ];
