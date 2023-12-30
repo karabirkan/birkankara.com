@@ -48,9 +48,7 @@ function ResumeCard() {
           birkannewyork@gmail.com • Front-end Developer
         </Text>
         <Text size="sm" className={classes.description}>
-          I transitioned from videography to frontend development, specializing
-          in React JS for web apps. I'm also proficient in Adobe Premiere Pro
-          for multimedia content creation.
+          I am Birkan, a frontend developer based in Istanbul with 5+ years' living and working in New York City, USA ( 2018-2023 ). I transitioned from videography to frontend development, specializing in React JS, Next JS , Typescript and Javascript for web apps. I'm also proficient in Adobe Premiere Pro, Photoshop and After Effects for multimedia content creation.
         </Text>
       </Paper>
       <Group justify="center" mb={30}>
