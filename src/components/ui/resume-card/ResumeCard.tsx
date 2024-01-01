@@ -111,44 +111,6 @@ function ResumeCard() {
           </Timeline.Item>
 
           <Timeline.Item
-            bullet={<IconCamera size={12} />}
-            title="Social Media Content Creator @ TikTok"
-          >
-            <Text size="xs" mt={4}>
-              January 2022 - August 2022
-            </Text>
-            <List
-              mt={30}
-              spacing="xs"
-              size="xs"
-              c="dimmed"
-              icon={
-                <ThemeIcon size={20} radius="xl" color="#fd7e14">
-                  <IconCamera
-                    style={{ width: rem(12), height: rem(12) }}
-                    stroke={1.5}
-                  />
-                </ThemeIcon>
-              }
-            >
-              <List.Item>
-                Conducted engaging street interviews with individuals from
-                diverse backgrounds, resulting in a library of 50+ high-quality
-                video content pieces.
-              </List.Item>
-              <List.Item>
-                Demonstrated exceptional communication skills by consistently
-                finding captivating topics and initiating discussions that
-                garnered an average of 40.000 views per video.
-              </List.Item>
-              <List.Item>
-                Produced highly engaging videos that achieved an average
-                engagement rate of 22%, surpassing industry benchmarks.
-              </List.Item>
-            </List>
-          </Timeline.Item>
-
-          <Timeline.Item
             title="Frontend Development Program - Student"
             bullet={<IconGitPullRequest size={12} />}
             lineVariant="dashed"
