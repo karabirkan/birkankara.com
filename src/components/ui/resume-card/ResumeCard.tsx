@@ -11,7 +11,6 @@ import {
   rem,
 } from "@mantine/core";
 import {
-  IconGitPullRequest,
   IconMessageDots,
   IconCode,
   IconSchool,
@@ -48,7 +47,12 @@ function ResumeCard() {
           birkannewyork@gmail.com • Front-end Developer
         </Text>
         <Text size="sm" className={classes.description}>
-          I am Birkan, a frontend developer based in Istanbul with 5+ years' living and working in New York City, USA ( 2018-2023 ). I transitioned from videography to frontend development, specializing in React JS, Next JS , Typescript and Javascript for web apps. I'm also proficient in Adobe Premiere Pro, Photoshop and After Effects for multimedia content creation.
+          I am Birkan, a frontend developer based in Istanbul with 5+ years'
+          living and working in New York City, USA ( 2018-2023 ). I transitioned
+          from videography to frontend development, specializing in React JS,
+          Next JS , Typescript and Javascript for web apps. I'm also proficient
+          in Adobe Premiere Pro, Photoshop and After Effects for multimedia
+          content creation.
         </Text>
       </Paper>
       <Group justify="center" mb={30}>
@@ -106,52 +110,6 @@ function ResumeCard() {
               <List.Item>
                 Consistently create visually appealing videos that exceed
                 expectations and leave a lasting impression.
-              </List.Item>
-            </List>
-          </Timeline.Item>
-
-          <Timeline.Item
-            title="Frontend Development Program - Student"
-            bullet={<IconGitPullRequest size={12} />}
-            lineVariant="dashed"
-          >
-            <Text size="xs" mt={4}>
-              August 2022 - July 2023
-            </Text>
-            <List
-              mt={30}
-              spacing="xs"
-              size="xs"
-              c="dimmed"
-              icon={
-                <ThemeIcon size={20} radius="xl" color="#fd7e14">
-                  <IconCode
-                    style={{ width: rem(12), height: rem(12) }}
-                    stroke={1.5}
-                  />
-                </ThemeIcon>
-              }
-            >
-              <List>
-                The Odin Project is an open-source, self-paced online curriculum
-                that provides aspiring web developers with the resources and
-                projects needed to learn and master full-stack web development
-                skills, including HTML, CSS, JavaScript, and various frameworks
-                like React and Node.js.
-              </List>
-              <List.Item>
-                Completed The Odin Project's Full Stack Web Development program,
-                a comprehensive online curriculum that focuses on building
-                practical skills in web development.
-              </List.Item>
-              <List.Item>
-                Developed proficiency in front-end and back-end technologies,
-                including HTML, CSS, JavaScript, React.js, and more.
-              </List.Item>
-              <List.Item>
-                Completed various hands-on projects, including building
-                responsive web applications, implementing database
-                functionality, and integrating APIs.
               </List.Item>
             </List>
           </Timeline.Item>
@@ -227,7 +185,7 @@ function ResumeCard() {
             title="The Odin Project - Front-End Development"
           >
             <Text size="xs" mt={4}>
-              August 2022 - July 2022
+              December 2021 - June 2023
             </Text>
           </Timeline.Item>
         </Timeline>
