@@ -47,12 +47,14 @@ function ResumeCard() {
           birkannewyork@gmail.com • Front-end Developer
         </Text>
         <Text size="sm" className={classes.description}>
-          I am Birkan, a frontend developer based in Istanbul with 5+ years'
-          living and working in New York City, USA ( 2018-2023 ). I transitioned
-          from videography to frontend development, specializing in React JS,
-          Next JS , Typescript and Javascript for web apps. I'm also proficient
-          in Adobe Premiere Pro, Photoshop and After Effects for multimedia
-          content creation.
+          I'm Birkan, a versatile professional with experience in account
+          management, sales, marketing, videography, and frontend development.
+          During five years in the U.S., I collaborated with top creators,
+          achieving over 20 million views on my projects while honing technical
+          and communication skills. Back in Turkey, I spent 1.5 years as a
+          software engineer, enhancing my technical and analytical expertise.
+          I'm eager to apply this diverse skill set to roles emphasizing human
+          relations, strategic problem-solving, and creativity.
         </Text>
       </Paper>
       <Group justify="center" mb={30}>
@@ -70,10 +72,13 @@ function ResumeCard() {
         <Timeline active={2} bulletSize={55} lineWidth={1} mb={40}>
           <Timeline.Item
             bullet={<IconCamera size={12} />}
-            title="Video Producer @ White in Red"
+            title="Sales Account Manager @ Dante's"
           >
             <Text size="xs" mt={6}>
-              March 2020 - September 2022
+              September 2018 - August 2019{" "}
+            </Text>
+            <Text size="xs" mt={6}>
+              New York City, Usa
             </Text>
             <List
               mt={30}
@@ -90,36 +95,30 @@ function ResumeCard() {
               }
             >
               <List mb={20}>
-                White in Red is a dynamic video production company dedicated to
-                crafting captivating visual experiences. Our passion lies in
-                bringing stories to life through engaging videos that resonate
-                with audiences. With a commitment to creativity and quality, we
-                transform ideas into compelling visuals, ensuring each project
-                is a unique and memorable journey.
+                Dante’s is a catering company based in New York City that
+                provides food services for organizations.
               </List>
               <List.Item>
-                Procient videographer experienced in collaborating with diverse
-                clients to produce engaging video content for various platforms
-                such as ̀ websites, TikTok, YouTube, and Instagram.
+                Organizing and managing customer orders for catering events
               </List.Item>
               <List.Item>
-                Manage the entire video production process from client
-                consultations to nal delivery, including identifying client
-                needs, coordinating shoots, ̀ lming, and post-production editing
+                Communicating with clients to handle orders and sales
               </List.Item>
               <List.Item>
-                Consistently create visually appealing videos that exceed
-                expectations and leave a lasting impression.
+                Handling customer inquiries and providing excellent service
               </List.Item>
             </List>
           </Timeline.Item>
 
           <Timeline.Item
-            title="Frontend Developer @ Garcia Tech (Intern)"
+            title="Sales Account Manager & Marketing Specialist @ White in Red"
             bullet={<IconMessageDots size={12} />}
           >
             <Text size="xs" mt={4}>
-              July 2023 - Present
+              September 2019 - September 2022{" "}
+            </Text>
+            <Text size="xs" mt={6}>
+              New York City, Usa
             </Text>
             <List
               mt={30}
@@ -136,22 +135,104 @@ function ResumeCard() {
               }
             >
               <List>
-                Garcia is a software services and outsourcing company that
-                provides high technology services and solutions with the help of
-                a great team.
+                White in Red is a dynamic video production company dedicated to
+                crafting captivating visual experiences.
               </List>
               <List.Item>
-                In my position at Garcia, I use React to build web apps. I also
-                work with styling tools like Material UI, Mantine and Tailwind
+                Managed client relationships as the primary contact,
+                strengthening long-term partnerships.
               </List.Item>
               <List.Item>
-                I am skilled in managing data using State Management Context API
-                and API calls React Query (TanStack Query).
+                Coordinated projects by aligning client expectations with
+                creative teams, ensuring on-time, brand-consistent content
+                delivery
               </List.Item>
               <List.Item>
-                I've also gained experience working collaboratively within a
-                team using Jira, Slack, Agile methods (Scrum, Kanban), GitHub
-                and daily meetups.
+                Assisted in campaign planning, tailoring strategies to client
+                objectives and increasing campaign engagement by an average of
+                15%.
+              </List.Item>
+            </List>
+          </Timeline.Item>
+          <Timeline.Item
+            title="Videographer - Editor @ White in Red"
+            bullet={<IconMessageDots size={12} />}
+          >
+            <Text size="xs" mt={4}>
+              March 2020 - September 2022{" "}
+            </Text>
+            <Text size="xs" mt={6}>
+              New York City, Usa
+            </Text>
+            <List
+              mt={30}
+              spacing="xs"
+              size="xs"
+              c="dimmed"
+              icon={
+                <ThemeIcon size={20} radius="xl" color="#fd7e14">
+                  <IconCode
+                    style={{ width: rem(12), height: rem(12) }}
+                    stroke={1.5}
+                  />
+                </ThemeIcon>
+              }
+            >
+              <List>
+                White in Red is a dynamic video production company dedicated to
+                crafting captivating visual experiences.
+              </List>
+              <List.Item>
+                Created engaging video content for platforms including websites,
+                TikTok, YouTube, and Instagram.
+              </List.Item>
+              <List.Item>
+                Produced videos that consistently met and exceeded client
+                expectations, enhancing brand presence and engagement.
+              </List.Item>
+            </List>
+          </Timeline.Item>
+          <Timeline.Item
+            title="Frontend Developer @ Garcia Tech"
+            bullet={<IconMessageDots size={12} />}
+          >
+            <Text size="xs" mt={4}>
+              April 2023 - July 2024{" "}
+            </Text>
+            <Text size="xs" mt={6}>
+              Istanbul, Turkey{" "}
+            </Text>
+            <List
+              mt={30}
+              spacing="xs"
+              size="xs"
+              c="dimmed"
+              icon={
+                <ThemeIcon size={20} radius="xl" color="#fd7e14">
+                  <IconCode
+                    style={{ width: rem(12), height: rem(12) }}
+                    stroke={1.5}
+                  />
+                </ThemeIcon>
+              }
+            >
+              <List>
+                At Garcia, a leading software services and outsourcing company,
+                I contribute to building robust web applications using React.
+                Here are some highlights of my role:
+              </List>
+              <List.Item>
+                Collaborate effectively within a team environment, utilizing
+                tools like Jira, Slack, and GitHub
+              </List.Item>
+              <List.Item>
+                Develop web applications using Next JS, React, Typescript
+                incorporating styling tools such as Material UI, Mantine, and
+                Tailwind.
+              </List.Item>
+              <List.Item>
+                Experience with Agile methodologies (Scrum, Kanban) and
+                participation in daily meetups for streamlined communication.
               </List.Item>
             </List>
           </Timeline.Item>
@@ -196,9 +277,9 @@ function ResumeCard() {
         target="_blank"
         rel="noreferrer"
       >
-        <Button bg="#228be6" mt={20} rightSection={<IconDownload size={14} />}>
+        {/* <Button bg="#228be6" mt={20} rightSection={<IconDownload size={14} />}>
           Download
-        </Button>
+        </Button> */}
       </a>
     </Paper>
   );
