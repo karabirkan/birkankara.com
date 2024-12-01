@@ -277,9 +277,9 @@ function ResumeCard() {
         target="_blank"
         rel="noreferrer"
       >
-        {/* <Button bg="#228be6" mt={20} rightSection={<IconDownload size={14} />}>
+        <Button bg="#228be6" mt={20} rightSection={<IconDownload size={14} />}>
           Download
-        </Button> */}
+        </Button>
       </a>
     </Paper>
   );
