@@ -115,7 +115,7 @@ function ResumeCard() {
             bullet={<IconMessageDots size={12} />}
           >
             <Text size="xs" mt={4}>
-              September 2019 - September 2022{" "}
+              October 2019 - December 2021{" "}
             </Text>
             <Text size="xs" mt={6}>
               New York City, Usa
@@ -154,50 +154,13 @@ function ResumeCard() {
               </List.Item>
             </List>
           </Timeline.Item>
-          <Timeline.Item
-            title="Videographer - Editor @ White in Red"
-            bullet={<IconMessageDots size={12} />}
-          >
-            <Text size="xs" mt={4}>
-              March 2020 - September 2022{" "}
-            </Text>
-            <Text size="xs" mt={6}>
-              New York City, Usa
-            </Text>
-            <List
-              mt={30}
-              spacing="xs"
-              size="xs"
-              c="dimmed"
-              icon={
-                <ThemeIcon size={20} radius="xl" color="#fd7e14">
-                  <IconCode
-                    style={{ width: rem(12), height: rem(12) }}
-                    stroke={1.5}
-                  />
-                </ThemeIcon>
-              }
-            >
-              <List>
-                White in Red is a dynamic video production company dedicated to
-                crafting captivating visual experiences.
-              </List>
-              <List.Item>
-                Created engaging video content for platforms including websites,
-                TikTok, YouTube, and Instagram.
-              </List.Item>
-              <List.Item>
-                Produced videos that consistently met and exceeded client
-                expectations, enhancing brand presence and engagement.
-              </List.Item>
-            </List>
-          </Timeline.Item>
+       
           <Timeline.Item
             title="Frontend Developer @ Garcia Tech"
             bullet={<IconMessageDots size={12} />}
           >
             <Text size="xs" mt={4}>
-              April 2023 - July 2024{" "}
+              December 2021 - December 2024{" "}
             </Text>
             <Text size="xs" mt={6}>
               Istanbul, Turkey{" "}
